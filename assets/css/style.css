@@ -378,6 +378,10 @@ section {
   margin-bottom: 0;
 }
 
+.profile-container {
+  margin-bottom: 30px; /* Adjust the value as needed */
+}
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
