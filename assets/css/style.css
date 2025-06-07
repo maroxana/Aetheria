@@ -378,6 +378,10 @@ section {
   margin-bottom: 0;
 }
 
+.profile-container {
+  margin-bottom: 5%; /* Adjust the value as needed */
+}
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -1103,4 +1107,18 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+/* Fix for portfolio article button not clickable on hover */
+.portfolio-info {
+  position: relative;
+  z-index: 2;
+}
+.portfolio-info .btn {
+  position: relative;
+  z-index: 3;
+}
+.portfolio-wrap::before,
+.portfolio-wrap .portfolio-links {
+  z-index: 1 !important;
 }
